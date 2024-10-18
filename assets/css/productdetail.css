@@ -408,6 +408,7 @@ font-family: var(--font-family);
 font-weight: 500;
 font-size: 1rem;
 color: #fff;
+line-height: 0.8125rem;
 }
 .reviews{
     display: flex;
@@ -469,6 +470,7 @@ color: rgba(0, 0, 0, 0.6);
     width: 14.375rem;
     height: 3.25rem;
 margin: 2.27625rem auto;
+line-height: 0.75px;
 }
 .load_more_btn a{
     font-family: var(--font-family);
@@ -511,3 +513,155 @@ height: 1.75rem;
 .products_box{
     width: 18.4375rem;
 }
+
+/* *subscribe  START HERE */
+
+.subscribe_box{
+    background: #000;
+    border-radius: 20px;
+width: 1240px;
+padding: 36px 64px;
+height: 180px;
+margin: 78px 0 15px 0;
+}
+.subsrcibe_cnt{
+    width: 1112px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe_txt h3{
+font-weight: 800;
+font-size: 40px;
+line-height: 112%;
+color: #fff;
+width: 551px;
+text-transform: uppercase;
+}
+.subscribe_btn_cnt{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 349px;
+    height: 108px;
+}
+.subscribe_btn_cnt input{
+    border-radius: 62px;
+width: 349px;
+height: 48px;
+background: #fff;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.4);
+padding-left: 20px;
+}
+.subscribe_btn_cnt form button{
+    border-radius: 62px;
+width: 349px;
+height: 46px;
+background: #fff;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+color: #000;
+display: inline-block;
+margin-top: 14px;
+margin-left: 0px;
+line-height: 10px;
+cursor: pointer;
+}
+.subscribe_btn_cnt form button:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+/* *subscribe  ENDS HERE */
+
+/* *footer  START HERE */
+
+#footer{
+    width: 100%;
+    height: 499px;
+    background: #f0f0f0;
+}
+.cnt{
+    display: flex;
+    justify-content: space-between;
+}
+.first_cnt{
+    width: 248px;
+    margin-top: 140px;
+}
+.first_cnt_img img{
+    margin-bottom: 25px;
+}
+.first_cnt_img p{
+font-weight: 400;
+font-size: 14px;
+line-height: 157%;
+color: rgba(0, 0, 0, 0.6);
+margin-bottom: 35px;
+}
+.icon_cnt{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+background: #fff;
+stroke: rgba(0, 0, 0, 0.2);
+text-align: center;
+line-height: 28px;
+cursor: pointer;
+transition: 0.3s;
+}
+.icon_cnt:hover{
+    background: #000;
+    color: #fff;
+}
+.social_media iconify-icon{
+    font-size: 12px;
+}
+.social_media{
+    width: 148px;
+    justify-content: space-between;
+}
+.first_cnt{
+    text-align: left;
+}
+.first_cnt h6{
+font-weight: 500;
+font-size: 16px;
+line-height: 112%;
+letter-spacing: 0.19em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 26px;
+}
+.first_cnt li a{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 119%;
+color: rgba(0, 0, 0, 0.6);
+}
+.first_cnt ul li{
+    margin-bottom: 15px;
+}
+.first_cnt ul li:hover{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+.menus{
+    width: 180px;
+}
+
+
+.footer_last_bar{
+    width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* *footer  ENDS HERE */
+
+
+
