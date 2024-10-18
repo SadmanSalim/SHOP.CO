@@ -500,6 +500,7 @@ font-size: 1.5rem;
 padding: 0.0234375rem 0.875rem;
 width: 3.625rem;
 font-family: var(--font-family);
+line-height: 28px;
 font-weight: 500;
 font-size: 0.75rem;
 color: #f33;
