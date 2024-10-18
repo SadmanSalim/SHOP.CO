@@ -1,9 +1,8 @@
-/* ===========Css Common================ */
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  outline: 0;
+  font-family: 'Poppins', serif;
 }
 :root {
   --font-family: 'Montserrat', serif;
@@ -12,115 +11,304 @@
   --secondary-color: #fff;
 }
 
-ul,
-ol {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
-  color: var(--primary-color);
 }
-
-.container {
-  width: 77.5rem;
-  margin: auto;
+ul,
+li {
+  list-style: none;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
 }
-
-/* ===========Css Common End================ */
-/* *===========nav ber sterd=============== */
-.top-ber {
-  width: 100%;
-  height: 2.375rem;
+/* COMEN CSS END HARE */
+/* HEADER STERD HEAR  */
+.rapaper {
+  width: 100vw;
   background-color: #000;
+  height: 38px;
 }
-.top-p {
+.signUp {
   width: 1240px;
-  height: 100%;
   margin: auto;
   display: flex;
-  align-items: center;
   justify-content: end;
+  height: 100%;
+  align-items: center;
 }
-.top-p p {
+.signUp p {
+  color: var(--secondary-color);
   text-align: center;
-  line-height: 38px;
+  width: 100vw;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
-  color: var(--secondary-color);
-  margin-right: 425px;
 }
-.top-p p a {
+.signUp p a {
   color: var(--secondary-color);
+  width: 100vw;
+  font-family: var(--font-family);
   font-weight: 500;
-  text-decoration: underline;
   font-size: 15px;
+  text-decoration: underline;
 }
-.cross-icon iconify-icon {
+.signUp a iconify-icon {
   color: var(--secondary-color);
+  font-size: 20px;
 }
-.container {
-  width: 100%;
-  height: 6rem;
+/*NAV BER STERT HARE  */
+nav {
+  width: 100vw;
+  height: 90px;
+  border-bottom: 2px solid #ddd;
 }
-.container .row {
+.content {
   width: 1240px;
   height: 100%;
   margin: auto;
+}
+.content .row {
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
-.container .row ul {
+.content .row .meno-ber {
+  font-size: 25px;
+  color: var(--primary-color);
+  display: none;
+}
+.content .row ul {
   display: flex;
 }
-.container .row ul li {
+.content .row ul li {
   margin: 0 12px;
 }
-.container .row ul li a {
+.content .row ul a {
   font-family: var(--font-family);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: var(--primary-color);
 }
-.search-bar {
+.row .sarch-box {
   border-radius: 62px;
-  width: 577px;
-  height: 48px;
-  background: #f0f0f0;
   display: flex;
   align-items: center;
+  background: #f0f0f0;
 }
-.search-bar iconify-icon {
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 24px;
-  line-height: 48px;
-  /* width: 40px;*/
+.row .sarch-box iconify-icon {
+  height: 48px;
+  width: 48px;
   padding: 12px;
+  font-size: 25px;
 }
-.search-bar input {
-  width: 90%;
-  height: 100%;
-  background: transparent;
+.row .sarch-box input {
+  width: 529px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 0 62px 62px 0;
   outline: none;
-  border: 0;
-  padding: 12px 0;
+  border: none;
+  background: transparent;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.4);
 }
-.quickmenu iconify-icon {
-  font-size: 27px;
-  color: var(--primary-color);
+
+.quicklist {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
 }
-.quickmenu .cart {
+.quicklist a iconify-icon {
+  font-size: 25px;
+  color: var(--primary-color);
+  margin: 7px;
+}
+.quicklist .m-saesh {
+  display: none;
+}
+.quicklist a .cart {
   font-size: 30px;
-  color: var(--primary-color);
 }
-/* *==================nav ber end================== */
+/* *NAV BER END HARE  */
+/* *HEADER END HEAR  */
+
+/* ?MAIN BANER STERT HARE  */
+
+.baner-box {
+  width: 100vw;
+  height: 663px;
+  background: #f3f0f1;
+}
+.baner-box .conaint {
+  width: 1240px;
+  height: 100%;
+  margin: auto;
+}
+.conaint .row {
+  height: 100%;
+}
+.conaint .row .left-side {
+  width: 50%;
+  height: 100%;
+}
+.row .left-side {
+  display: flex;
+  align-items: center;
+}
+.left-side .raper h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: #000;
+}
+.left-side .raper .Paragrap {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 32px 0;
+}
+.left-side .raper a {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 62px;
+  padding: 16px 54px;
+  background: var(--primary-color);
+}
+.left-side .raper .counting-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 48px;
+  height: 74px;
+}
+.left-side .raper .counting h5 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
+.left-side .raper .counting p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 137%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.left-side .raper .c-margin-1 {
+  padding-right: 32px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.left-side .raper .c-margin-2 {
+  padding: 0 32px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.left-side .raper .c-margin-3 {
+  padding-left: 32px;
+}
+.conaint .row .right-side {
+  width: 50%;
+  height: 100%;
+}
+.right-side img {
+  width: 100%;
+  margin-top: 51px;
+}
+/* ?MAIN BANER END HARE  */
+/* Brand STERT HARE  */
+.brinds-logo {
+  width: 100vw;
+  height: 122px;
+  background: var(--primary-color);
+}
+.brinds-logo .row {
+  align-items: center;
+  width: 1240px;
+  height: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+/* Brand END HARE  */
+
+/* !MEDIA QUERY STERT HEAR  */
+
+@media (max-width: 431px) {
+  .signUp {
+    width: 100vw;
+  }
+  .signUp p {
+    font-size: 12px;
+  }
+  .signUp a iconify-icon {
+    display: none;
+  }
+  /* nav ber stert   */
+  .row .logo img {
+    width: 126px;
+    margin-left: -23px;
+  }
+  .content {
+    width: 100vw;
+  }
+  .content .row .meno-ber {
+    display: block;
+    margin-left: 16px;
+  }
+  .content .row ul {
+    display: none;
+  }
+  .quicklist .m-saesh {
+    display: block;
+  }
+  .row .sarch-box iconify-icon {
+    display: none;
+    font-size: 25px;
+    margin-right: 16px;
+  }
+  .sarch-box input {
+    display: none;
+  }
+  /* MAIN BANER STERD HARE  */
+  .conaint .row {
+  }
+  .conaint .row .left-side {
+    width: 100%;
+    align-items: baseline;
+  }
+
+  .left-side .raper h2 {
+    font-size: 40px;
+    line-height: 94%;
+    width: 90vw;
+    margin: 40px 0 20px;
+  }
+  .left-side .raper p {
+    width: 94vw;
+    font-size: 14px;
+  }
+  .left-side .raper {
+    margin: 0 16px;
+    width: 92vw;
+  }
+  .conaint .row .right-side {
+    width: 100vw;
+  }
+
+  .right-side img {
+    margin-top: 0;
+  }
+  .left-side .raper a {
+    padding: 12px 36%;
+  }
+  /* MAIN BANER END HARE  */
+}
+/* ?MEDIA QUERY END HEAR  */
