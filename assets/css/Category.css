@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', serif;
+}
+:root {
+  --font-family: 'Montserrat', serif;
+  --second-family: 'Poppins', serif;
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+/* ::-webkit-scrollbar{
+  width: 3px;
+}
+::-webkit-scrollbar-thumb{
+  width: 3px;
+  background: #000;
+  border-radius: 10px;
+} */
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.container {
+  width: 1240px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* COMEN CSS END HARE */
+/* HEADER STERD HEAR  */
+.rapaper {
+  width: 100vw;
+  background-color: #000;
+  height: 38px;
+}
+.signUp {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  align-items: center;
+}
+.signUp p {
+  color: var(--secondary-color);
+  text-align: center;
+  width: 100vw;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+}
+.signUp p a {
+  color: var(--secondary-color);
+  width: 100vw;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.signUp a iconify-icon {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+/*NAV BER STERT HARE  */
+nav {
+  width: 100vw;
+  height: 90px;
+  border-bottom: 2px solid #ddd;
+}
+.content {
+  width: 1240px;
+  height: 100%;
+  margin: auto;
+}
+.content .row {
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.content .row .meno-ber {
+  font-size: 25px;
+  color: var(--primary-color);
+  display: none;
+}
+.content .row ul {
+  display: flex;
+}
+.content .row ul li {
+  margin: 0 12px;
+}
+.content .row ul a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.row .sarch-box {
+  border-radius: 62px;
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+}
+.row .sarch-box iconify-icon {
+  height: 48px;
+  width: 48px;
+  padding: 12px;
+  font-size: 25px;
+}
+.row .sarch-box input {
+  width: 529px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 0 62px 62px 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.quicklist {
+  display: flex;
+  align-items: center;
+}
+.quicklist a iconify-icon {
+  font-size: 25px;
+  color: var(--primary-color);
+  margin: 7px;
+}
+.quicklist .m-saesh {
+  display: none;
+}
+.quicklist a .cart {
+  font-size: 30px;
+}
+/* *NAV BER END HARE  */
+/* *HEADER END HEAR  */
+@media (max-width: 431px) {
+  .signUp {
+    width: 100vw;
+  }
+  .signUp p {
+    font-size: 12px;
+  }
+  .signUp a iconify-icon {
+    display: none;
+  }
+  /* nav ber stert   */
+  .row .logo img {
+    width: 126px;
+    margin-left: -23px;
+  }
+  .content {
+    width: 100vw;
+  }
+  .content .row .meno-ber {
+    display: block;
+    margin-left: 16px;
+  }
+  .content .row ul {
+    display: none;
+  }
+  .quicklist .m-saesh {
+    display: block;
+  }
+  .row .sarch-box iconify-icon {
+    display: none;
+    font-size: 25px;
+    margin-right: 16px;
+  }
+  .sarch-box input {
+    display: none;
+  }
+}
