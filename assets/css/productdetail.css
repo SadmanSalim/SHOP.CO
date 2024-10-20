@@ -663,6 +663,18 @@ color: rgba(0, 0, 0, 0.6);
     align-items: center;
 }
 /* *footer  ENDS HERE */
+@media(max-width: 1610px){
+    header{
+        padding: 15px 7%;
+    }
+    section{
+        padding: 70px 7% 80px;
+    }
+    
+}
+@media(max-width: 1500px){
+    
+}
 
 
 
