@@ -13,7 +13,7 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form method="post" action="">
+            <form method="post" action="register.php">
                 <h1>Create Account</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -21,14 +21,14 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
-                <input type="text" name="Full_Name" placeholder="Name" required>
-                <input type="email" name="Email" placeholder="Email" required>
-                <input type="password" name="Password" placeholder="Password" required>
-                <button type="submit" name="signUp" value="Sign Up">Sign Up</button>
+                <input type="text" name="fullName" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button id="signInButton" type="submit" name="signUp" value="Sign Up">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in">
-            <form method="" action="">
+            <form method="POST" action="register.php">
                 <h1>Sign In</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -36,10 +36,11 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email password</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="email" name='email' placeholder="Email">
+                <input type="password" name='password' placeholder="Password">
                 <a href="#">Forget Your Password?</a>
-                <button>Sign In</button>
+                <button type="submit" class="btn" value="Sign In" name="signIn">Sign In</button>
+                <!-- <input > -->
             </form>
         </div>
         <div class="toggle-container">
