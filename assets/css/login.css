@@ -45,7 +45,7 @@ body{
     text-decoration: none;
     margin: 15px 0 10px;
 }
-
+.sign-up a,
 .container button{
     background-color: #000;
     color: #fff;
@@ -208,3 +208,4 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+

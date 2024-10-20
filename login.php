@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
     <link rel="stylesheet" href="./assets/css/login.css">
     <title>SHOP.CO - Login/Signup</title>
 </head>
@@ -22,9 +24,13 @@
                 </div>
                 <span>or use your email for registeration</span>
                 <input type="text" name="fullName" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <!-- <div class="otpverify">
+                    <input type="text" placeholder="Enter the OTP sent to your Email.." id="otp_inp">
+                    <button class="btn" id="otp-btn">Verify</button>
+            </div> -->
                 <input type="password" name="password" placeholder="Password" required>
-                <button id="signInButton" type="submit" name="signUp" value="Sign Up">Sign Up</button>
+                <button id="signInButton" class="btn" type="submit" name="signUp" value="Sign Up">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in">
@@ -71,7 +77,9 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
-    </script>
+  </script>
+
+
 </body>
 
 </html>
